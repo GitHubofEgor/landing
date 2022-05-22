@@ -1,0 +1,31 @@
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+
+.card{
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 24px;
+box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.4);
+border-radius: 6px;
+margin-bottom: 20px;
+margin-right: 20px;
+flex-basis: 270px;
+background: white;
+
+
+}
+
+.card p{
+color: black;
+}
+
+.card img{
+	width:  260px;
+	border-radius: 6px;
+}
